@@ -19,6 +19,9 @@ Hermes Agent / Claude Code / Cursor / Windsurf / OpenClaw 通用标准格式。
 | [Debugger Agent](skills/debugger.md) | 调试：定位根因、多路径推演、最小修复 | ⭐⭐ |
 | [Test Engineer Agent](skills/test-engineer.md) | 测试：补关键路径、边界、异常测试 | ⭐⭐ |
 | [Code Simplifier Agent](skills/code-simplifier.md) | 代码简化：去重复、理结构、收命名 | ⭐⭐ |
+| [Browser Automation](skills/browser-automation-workflow.md) | 浏览器自动化：页面操作、数据提取、视觉验证 | ⭐⭐ |
+| [Cron Automation Patterns](skills/cron-automation-patterns.md) | 定时任务自动化：巡检、内容生产、异常告警 | ⭐⭐ |
+| [Dark Theme Design System](skills/dark-theme-design-system.md) | 暗色主题设计系统：CSS变量、双模式切换、主题色盘 | ⭐ |
 
 ## Prompts
 
