@@ -4,24 +4,27 @@
 
 Hermes Agent / Claude Code / Cursor / Windsurf / OpenClaw 通用标准格式。
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Skills](https://img.shields.io/badge/Skills-14-blue)](#skills)
+
 ## Skills
 
 | 技能 | 描述 | 难度 |
 |------|------|------|
-| [Streaming Response Handler](skills/streaming-response-handler.md) | 构建流式响应系统：SSE、断线重连、实时进度展示 | ⭐⭐ |
-| [Async Image Generation Workflow](skills/async-image-generation-workflow.md) | AI 异步生图全链路：提交、轮询、进度、兜底 | ⭐⭐ |
-| [Multi-Provider AI Fallback](skills/multi-provider-ai-fallback.md) | 多供应商路由：故障转移、熔断保护、成本优化 | ⭐⭐⭐ |
-| [Full Dev Workflow](skills/full-dev-workflow.md) | 6 Agent 开发工作流：探索→审查→测试→简化→安全 | ⭐⭐⭐ |
-| [Self Evolution](skills/self-evolution.md) | 8 阶段自进化循环：AI 自主迭代升级 | ⭐⭐⭐ |
-| [Vibe Coding](skills/vibe-coding.md) | AI 驱动编程：自然语言描述→代码→成品 | ⭐⭐ |
-| [Code Review Agent](skills/code-review.md) | 代码审查：逻辑漏洞、边界条件、回归风险 | ⭐⭐ |
-| [Security Review Agent](skills/security-review.md) | 安全审查：认证、密钥、支付、数据安全 | ⭐⭐ |
-| [Debugger Agent](skills/debugger.md) | 调试：定位根因、多路径推演、最小修复 | ⭐⭐ |
-| [Test Engineer Agent](skills/test-engineer.md) | 测试：补关键路径、边界、异常测试 | ⭐⭐ |
-| [Code Simplifier Agent](skills/code-simplifier.md) | 代码简化：去重复、理结构、收命名 | ⭐⭐ |
-| [Browser Automation](skills/browser-automation-workflow.md) | 浏览器自动化：页面操作、数据提取、视觉验证 | ⭐⭐ |
-| [Cron Automation Patterns](skills/cron-automation-patterns.md) | 定时任务自动化：巡检、内容生产、异常告警 | ⭐⭐ |
-| [Dark Theme Design System](skills/dark-theme-design-system.md) | 暗色主题设计系统：CSS变量、双模式切换、主题色盘 | ⭐ |
+| [Async Image Generation Workflow](skills/async-image-generation-workflow.md) | AI 异步生图全链路：提交→轮询→进度→兜底→展示 | ⭐⭐ |
+| [Multi-Provider AI Fallback](skills/multi-provider-ai-fallback.md) | 多供应商路由：故障转移、熔断、成本优化 | ⭐⭐⭐ |
+| [Streaming Response Handler](skills/streaming-response-handler.md) | 流式响应系统：SSE 协议、断线重连、实时进度展示 | ⭐⭐ |
+| [Browser Automation Workflow](skills/browser-automation-workflow.md) | 浏览器自动化：页面操作、数据提取、视觉验证 | ⭐⭐ |
+| [Cron Automation Patterns](skills/cron-automation-patterns.md) | 定时任务自动化：巡检、内容生成、数据管道、空输出保护 | ⭐⭐ |
+| [Dark Theme Design System](skills/dark-theme-design-system.md) | 暗色主题设计系统：CSS 变量、双模式切换、SVG 图标 | ⭐ |
+| [Full Dev Workflow](skills/full-dev-workflow.md) | 6 Agent 开发流水线：探索→审查→测试→简化→安全 | ⭐⭐⭐ |
+| [Debugger Agent](skills/debugger-agent.md) | 系统化调试：复现→根因分析→多路径修复→验证闭环 | ⭐⭐ |
+| [Code Review Agent](skills/code-review-agent.md) | 代码审查：逻辑漏洞、边界条件、回归风险 | ⭐⭐ |
+| [Security Review Agent](skills/security-review-agent.md) | 安全审查：认证、密钥、支付、数据隔离全覆盖 | ⭐⭐⭐ |
+| [Test Engineer Agent](skills/test-engineer-agent.md) | 关键路径测试：按风险优先级（P0>P1>P2）补测试 | ⭐⭐ |
+| [Code Simplifier Agent](skills/code-simplifier-agent.md) | 代码简化：去重复、理命名、顺结构、清死代码 | ⭐⭐ |
+| [Self Evolution Framework](skills/self-evolution-framework.md) | 8 阶段自进化循环：Review→Modify→Verify→Gate→Loop | ⭐⭐⭐ |
+| [Vibe Coding Workflow](skills/vibe-coding-workflow.md) | AI 驱动编程：自然语言描述→AI 生成→你审核→迭代 | ⭐ |
 
 ## Prompts
 
@@ -36,16 +39,13 @@ Hermes Agent / Claude Code / Cursor / Windsurf / OpenClaw 通用标准格式。
 
 ### Hermes Agent
 ```bash
-# 查看所有可用 skills
-skill_list
-
-# 加载 skill
-skill_view(name='streaming-response-handler')
+skill_list                          # 查看所有可用 skills
+skill_view(name='debugger-agent')   # 加载某个技能
 ```
 
 ### Claude Code
 ```bash
-# 将技能文件放入 ~/.claude/skills/
+# 将 .md 文件放入 ~/.claude/skills/
 # 或通过 MCP 配置加载
 ```
 
@@ -62,4 +62,4 @@ skill_view(name='streaming-response-handler')
 
 ## 许可
 
-MIT License
+MIT License — 随意使用、修改、商用，保留版权声明即可。
