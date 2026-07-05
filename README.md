@@ -5,7 +5,7 @@
 Hermes Agent / Claude Code / Cursor / Windsurf / OpenClaw 通用标准格式。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-16-blue)](#skills)
+[![Skills](https://img.shields.io/badge/Skills-17-blue)](#skills)
 
 ## Skills
 
@@ -27,6 +27,7 @@ Hermes Agent / Claude Code / Cursor / Windsurf / OpenClaw 通用标准格式。
 | [MCP Server Development Guide](skills/mcp-server-development-guide.md) | MCP 协议实现：Server 开发、工具注册、SSE 流式、stdio 传输 | ⭐⭐⭐ |
 | [Test Engineer Agent](skills/test-engineer-agent.md) | 关键路径测试：按风险优先级（P0>P1>P2）补测试 | ⭐⭐ |
 | [Vibe Coding Workflow](skills/vibe-coding-workflow.md) | AI 驱动编程：自然语言描述→AI 生成→你审核→迭代 | ⭐ |
+| [Web Search Integration](skills/web-search-integration.md) | 多引擎并行搜索：结果融合、缓存、安全过滤、来源标注 | ⭐⭐ |
 
 ## Prompts
 
