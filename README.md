@@ -5,7 +5,7 @@
 Hermes Agent / Claude Code / Cursor / Windsurf / OpenClaw 通用标准格式。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-15-blue)](#skills)
+[![Skills](https://img.shields.io/badge/Skills-16-blue)](#skills)
 
 ## Skills
 
@@ -24,6 +24,7 @@ Hermes Agent / Claude Code / Cursor / Windsurf / OpenClaw 通用标准格式。
 | [Security Review Agent](skills/security-review-agent.md) | 安全审查：认证、密钥、支付、数据隔离全覆盖 | ⭐⭐⭐ |
 | [Self Evolution Framework](skills/self-evolution-framework.md) | 8 阶段自进化循环：Review→Modify→Verify→Gate→Loop | ⭐⭐⭐ |
 | [Streaming Response Handler](skills/streaming-response-handler.md) | 流式响应系统：SSE 协议、断线重连、实时进度展示 | ⭐⭐ |
+| [MCP Server Development Guide](skills/mcp-server-development-guide.md) | MCP 协议实现：Server 开发、工具注册、SSE 流式、stdio 传输 | ⭐⭐⭐ |
 | [Test Engineer Agent](skills/test-engineer-agent.md) | 关键路径测试：按风险优先级（P0>P1>P2）补测试 | ⭐⭐ |
 | [Vibe Coding Workflow](skills/vibe-coding-workflow.md) | AI 驱动编程：自然语言描述→AI 生成→你审核→迭代 | ⭐ |
 
